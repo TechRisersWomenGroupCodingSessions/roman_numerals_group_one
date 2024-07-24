@@ -1,5 +1,5 @@
-const sum = require('./app');
+const convert_to_roman_numerals = require('./app');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('converts 1 to I', () => {
+  expect(convert_to_roman_numerals(1)).toBe("I");
 });
