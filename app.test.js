@@ -7,3 +7,7 @@ test('converts 1 to I', () => {
 test('converts 5 to V', () => {
   expect(convert_to_roman_numerals(5)).toBe("V");
 });
+
+test('converts 10 to X', () => {
+    expect(convert_to_roman_numerals(10)).toBe("X");
+  });
